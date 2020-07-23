@@ -1,0 +1,53 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#header {
+  height: 20%;
+}
+
+#map {
+  width:75%;
+}
+
+#resources{
+  height: 30%;
+}
+
+#instructions {
+  color: red;
+}
+
+.detail {
+  font-weight: bold;
+  color: grey;
+}
+
+#resources-list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+#map-container {
+  height: 50%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+#contact-div{
+   visibility: hidden;
+   width: 23%;
+   background-color: rgb(255, 255, 153);
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 10;
+  padding: 10;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
